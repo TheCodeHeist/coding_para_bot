@@ -1,0 +1,33 @@
+{
+  "name": "coding_para_bot",
+  "version": "1.0.0",
+  "description": "কোডিং পাড়া 's open-source discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodeHeist/coding_para_bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "কোডিং পাড়া",
+    "coding_para_bot",
+    "open-source"
+  ],
+  "author": "Md. Riyasat Hossain (TheCodeHeist) - on behalf of কোডিং পাড়া",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheCodeHeist/coding_para_bot/issues"
+  },
+  "homepage": "https://github.com/TheCodeHeist/coding_para_bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
