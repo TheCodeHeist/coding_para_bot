@@ -1,6 +1,8 @@
 var http = require("http");
 
 function startKeepAlive() {
+  console.log("Pinging...");
+  
   setInterval(function () {
     var options = {
       host: "coding-para-bot.herokuapp.com",
