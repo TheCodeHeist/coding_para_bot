@@ -1,9 +1,9 @@
-var http = require("http"); //importing http
+var http = require("http");
 
 function startKeepAlive() {
   setInterval(function () {
     var options = {
-      host: "your_app_name.herokuapp.com",
+      host: "coding-para-bot.herokuapp.com",
       port: 80,
       path: "/",
     };
