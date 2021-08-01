@@ -1,7 +1,8 @@
 var http = require("http");
 
+console.log("Pinging...");
+
 function startKeepAlive() {
-  console.log("Pinging...");
   
   setInterval(function () {
     var options = {
