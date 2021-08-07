@@ -1,1 +1,1 @@
-Worker: node bot.js && node undeadheroku.js
+Worker: node bot.js

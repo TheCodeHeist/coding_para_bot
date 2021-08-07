@@ -3,5 +3,5 @@
   "description": "কোডিং পাড়া 's open-source discord bot.",
   "author": "Md. Riyasat Hossain (TheCodeHeist) - on behalf of কোডিং পাড়া",
   "version": "1.0.0",
-  "prefix": "cp!"
+  "prefix": "!"
 }

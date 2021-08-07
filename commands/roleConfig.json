@@ -1,0 +1,105 @@
+{
+  "prog_langs": {
+    "c_cpp": {
+      "name": "c_cpp",
+      "id": "cppOption",
+      "label": "C/C++",
+      "assigned_role": "c/c++",
+      "obj_id": "872758988876423178"
+    },
+    "javascript": {
+      "name": "javascript",
+      "id": "jsOption",
+      "label": "JavaScript",
+      "assigned_role": "javascript",
+      "obj_id": "872758766771261440"
+    },
+    "python": {
+      "name": "python",
+      "id": "pyOption",
+      "label": "Python",
+      "assigned_role": "python",
+      "obj_id": "872758888926183424"
+    },
+    "ruby": {
+      "name": "ruby",
+      "id": "rbOption",
+      "label": "Ruby",
+      "assigned_role": "ruby",
+      "obj_id": "872759429131534356"
+    },
+    "php": {
+      "name": "php",
+      "id": "phpOption",
+      "label": "PHP",
+      "assigned_role": "php",
+      "obj_id": ""
+    },
+    "java": {
+      "name": "java",
+      "id": "javaOption",
+      "label": "Java",
+      "assigned_role": "java",
+      "obj_id": ""
+    },
+    "csharp": {
+      "name": "csharp",
+      "id": "csOption",
+      "label": "C#",
+      "assigned_role": "c#",
+      "obj_id": ""
+    },
+    "dart": {
+      "name": "dart",
+      "id": "dartOption",
+      "label": "Dart",
+      "assigned_role": "dart",
+      "obj_id": ""
+    },
+    "rust": {
+      "name": "rust",
+      "id": "rsOption",
+      "label": "Rust",
+      "assigned_role": "rust",
+      "obj_id": "872759065216970762"
+    },
+    "lua": {
+      "name": "lua",
+      "id": "luaOption",
+      "label": "Lua",
+      "assigned_role": "lua",
+      "obj_id": "872758848933474345"
+    }
+  },
+
+  "dev_types": {
+    "app_dev": {
+      "name": "app_dev",
+      "id": "appDevOption",
+      "label": "App Developer",
+      "assigned_role": "app dev",
+      "obj_id": ""
+    },
+    "web_dev": {
+      "name": "web_dev",
+      "id": "webDevOption",
+      "label": "Web Developer",
+      "assigned_role": "web dev",
+      "obj_id": ""
+    },
+    "game_dev": {
+      "name": "game_dev",
+      "id": "gameDevOption",
+      "label": "Game Developer",
+      "assigned_role": "game dev",
+      "obj_id": ""
+    },
+    "comp_prog": {
+      "name": "comp_prog",
+      "id": "compProgOption",
+      "label": "Competitive Programmer",
+      "assigned_role": "competitive programmer",
+      "obj_id": ""
+    }
+  }
+}

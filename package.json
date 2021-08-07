@@ -4,7 +4,7 @@
   "description": "কোডিং পাড়া 's open-source discord bot.",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,12 @@
   },
   "homepage": "https://github.com/TheCodeHeist/coding_para_bot#readme",
   "dependencies": {
+    "discord-buttons": "^4.0.0",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.0"
+    "@types/dotenv": "^8.2.0",
+    "nodemon": "^2.0.12"
   }
 }
