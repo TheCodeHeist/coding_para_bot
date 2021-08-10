@@ -35,7 +35,7 @@ bot.on("message", (message) => {
 
   switch (command) {
     case "role":
-      bot.commands.get("rolePicker").execute(message, disbut);
+      bot.commands.get("rolePicker").execute(bot, message, disbut);
       break;
   }
 });
