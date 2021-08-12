@@ -99,7 +99,7 @@ module.exports = {
       menu.message.guild.members.fetch({ user: menu.clicker.id, force: true }).then(response => {
         const member = menu.message.guild.members.cache.get(response.user.id);
 
-        menu.values.forEach(async (x) => {
+        menu.values.forEach(async (x, index) => {
           if (x === "cppOption") {
             if (member.roles.cache.get(prog_langs.c_cpp.obj_id)) {
               await member.roles.remove(prog_langs.c_cpp.obj_id);
