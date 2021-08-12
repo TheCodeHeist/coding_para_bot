@@ -1,5 +1,6 @@
 module.exports = {
   name: "roleMemberCount",
+  type: "utility",
   description: "Counts the number of members having a specific role.",
   execute(message, args){
     // message.channel.send("You're counting members!");

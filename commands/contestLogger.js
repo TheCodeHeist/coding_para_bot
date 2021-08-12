@@ -2,6 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "contestLogger",
+  type: "application",
   description: "Logs the CodeForces contests and share that.",
   execute(message, discord) {
     const hexArr = [

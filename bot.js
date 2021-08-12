@@ -25,6 +25,7 @@ console.clear();
 
 bot.on("ready", () => {
   console.log(`Logged in sir!`);                            //----- 2 hours -----
+  bot.commands.get("statusRoller").execute(bot, prefix );
   bot.commands.get("redditMemeGrabber").execute(bot, Discord, 1000 * 60 * 60 * 2 );
 });
 
