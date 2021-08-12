@@ -24,7 +24,8 @@ for (const commandFile of commandFiles) {
 console.clear();
 
 bot.on("ready", () => {
-  console.log(`Logged in sir!`);
+  console.log(`Logged in sir!`);                            //----- 2 hours -----
+  bot.commands.get("redditMemeGrabber").execute(bot, Discord, 1000 * 60 * 60 * 2 );
 });
 
 bot.on("message", (message) => {
@@ -33,9 +34,19 @@ bot.on("message", (message) => {
   const args = message.content.slice(prefix.length).split(" ");
   const command = args.shift().toLowerCase();
 
+  // message.channel.send("Command: " + command);
+
   switch (command) {
     case "role":
       bot.commands.get("rolePicker").execute(bot, message, disbut);
+      break;
+
+    case "cf":
+      bot.commands.get("contestLogger").execute(message, Discord);
+      break;
+
+    case "count_mb":
+      bot.commands.get("roleMemberCount").execute(message, args);
       break;
   }
 });
